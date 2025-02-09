@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivani Nagula - Accessible Bio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1><strong>Shivani Nagula</strong></h1>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2><strong>About Me</strong></h2>
+            <div class="about-container">
+                <img src="images/shivani.jpg" alt="Shivani Nagula smiling holding a bouquet" class="profile-pic">
+                <p>
+                    Hi, I'm <strong>Shivani Nagula</strong>, a senior studying computer engineering at Texas A&M University. 
+                    I was born in India but grew up in <strong>Houston, Texas</strong>. I love problem-solving and working hands-on. 
+                    Outside my classes, my hobbies include dancing, reading, watching movies/TV shows, and hanging out with my friends.
+                </p>
+            </div>
+        </section>        
+
+        <section id="accessibility">
+            <h2><strong>Accessibility Interests</strong></h2>
+            <p>I took Accessible Computing because I am interested in learning more about making technology more inclusive for everyone. My interests include:</p>
+            <ul>
+                <li>Digital Accessibility</li>
+                <li>Educational Accessibility</li>
+                <li>Social and Cultural Accessibility</li>
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <h2><strong>Gallery</strong></h2>
+            <div class="gallery-container">
+                <figure>
+                    <img src="images/accessibility.png" alt="blue background with 8 white pictograms of different accessibility" class="gallery-image">
+                    <figcaption>Pictogram depicting accessibilities</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/peony.webp" alt="pink peony flower with grass around" class="gallery-image">
+                    <figcaption>A pink peony</figcaption>
+                </figure>
+            </div>
+        </section>
+
+
+        <section id="collab">
+            <h2><strong>Collaboration Interest Form</strong></h2>
+            <form action="https://docs.google.com/forms/d/e/YOUR_GOOGLE_FORM_ID/formResponse" method="post">
+                <label for="name"><strong>Full Name:</strong></label>
+                <input type="text" id="name" name="entry.YOUR_NAME_FIELD_ID" required>
+
+                <label for="email"><strong>Email:</strong></label>
+                <input type="email" id="email" name="entry.YOUR_EMAIL_FIELD_ID" required>
+
+                <label for="comments"><strong>Additional Comments:</strong></label>
+                <textarea id="comments" name="entry.YOUR_COMMENTS_FIELD_ID"></textarea>
+
+                <button type="submit"><strong>Submit</strong></button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2><strong>Contact Me</strong></h2>
+            <p>Email: <a href="shivani_06@tamu.edu"><em>shivani_06@tamu.edu</em></a></p>
+        </section>
+    </main>
+
+</body>
+</html>
